@@ -80,12 +80,24 @@ body {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
+  transition: background-color instant, color instant;
 }
 
 .button-main:hover,
 .button-main:focus {
   background-color: var(--ocean);
   color: var(--white);
+}
+.hero-background {
+  background-color: var(--navyblue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/hero-background-image.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .navybluebg {
   background-color: var(--navyblue);
@@ -135,6 +147,7 @@ body {
 .card {
   background: var(--white);
   border: 1px solid var(--cornflower);
+  transition: color 500ms ease-out;
 }
 .link:hover,
 .link:focus {
@@ -169,7 +182,7 @@ body {
   cursor: pointer;
   line-height: 1.5;
   background: var(--cloud);
-
+  transition: background-color instant, color instant;
   color: var(--iris);
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -267,6 +280,15 @@ p {
   display: flex;
   gap: 24px;
 }
+.icon-features {
+  width: 64px;
+  height: 64px;
+}
+.features-item-icon {
+  border-radius: 4px;
+  background: var(--cloud);
+  padding: 24px 100px;
+}
 .features-item {
   width: calc((100% - 72px) / 4);
 }
@@ -302,6 +324,61 @@ p {
 .name-text {
   text-align: center;
 }
+.section-ourteam-icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--cloud);
+}
+.social-link .link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.social-item {
+  display: flex;
+  gap: 24px;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.social-link .link:hover {
+  background-color: var(--green);
+}
+.section-customers {
+  padding: 120px;
+}
+.section-customers-list {
+  display: flex;
+  gap: 24px;
+}
+.section-customers-item {
+  border-radius: 4px;
+  border: 1px solid var(--lightslate);
+  padding: 16px 32px;
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  fill: var(--lightslate);
+}
+.customers-icon:hover {
+  fill: var(--ocean);
+}
+
+.section-customers-item:hover {
+  border-radius: 4px;
+  border: 1px solid var(--ocean);
+}
+
+.title-customers {
+  margin-bottom: 72px;
+}
 .footer-section {
   padding: 100px 0;
 }
@@ -311,6 +388,36 @@ p {
 }
 .footer-text {
   max-width: 264px;
+}
+.social-footer-text {
+  color: var(--white);
+}
+.footer-content {
+  display: flex;
+  gap: 120px;
+}
+
+.social-link-footer .link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.social-link-footer .link:hover {
+  background-color: var(--green);
+}
+.social-footer {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+}
+.section-footer-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--cloud);
 }
 /*Portfolio-page*/
 .porfolio-main {
@@ -348,4 +455,13 @@ p {
 }
 .sec-paddingcenter {
   padding-bottom: 120px;
+}
+.current {
+  color: var(--ocean);
+  border-bottom: 4px solid var(--ocean);
+}
+.list-portfolio-content .card:active {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
