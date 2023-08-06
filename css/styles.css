@@ -94,7 +94,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-background-image.jpeg);
+    url(./images/hero-background-image.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
