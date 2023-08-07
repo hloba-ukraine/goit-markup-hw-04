@@ -23,6 +23,7 @@ body {
 .list {
   list-style: none;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-big {
   line-height: 1.07;
@@ -247,6 +248,8 @@ p {
 
 .header-border {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-main {
   display: flex;
@@ -470,11 +473,18 @@ p {
   padding-bottom: 120px;
 }
 .current {
-  color: var(--ocean);
-  border-bottom: 2px solid var(--ocean);
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current::after {
-  content: "";
+  content: ;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--ocean);
+  border-radius: 2px;
 }
 .list-portfolio-content .card:active {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
