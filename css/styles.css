@@ -288,6 +288,7 @@ p {
 /*Main*/
 .main-section {
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .section-features {
