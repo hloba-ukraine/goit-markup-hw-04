@@ -401,10 +401,7 @@ p {
 .customers-icon {
   fill: currentColor;
 }
-.link:focus .coustomers-link:focus {
-  border-color: var(--ocean);
-  color: var(--ocean);
-}
+
 .coustomers-link:hover {
   border-color: var(--ocean);
   color: var(--ocean);
@@ -412,6 +409,10 @@ p {
 .coustomers-link:active {
   border-color: var(--ocean);
   color: var(--ocean);
+}
+.coustomers-link:focus {
+  border-color: var(--ocean);
+  color: #404bbf;
 }
 .title-customers {
   margin-bottom: 72px;
