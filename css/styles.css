@@ -119,6 +119,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -552,7 +553,7 @@ p {
 .item-portfolio:active .overlay {
   transform: translateY(0%);
 }
-.item-portfolio:focus .overlay {
+.item-portfolio:focus .link .overlay {
   transform: translateY(0%);
 }
 .item-portfolio:hover .overlay {
