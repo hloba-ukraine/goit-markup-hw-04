@@ -401,7 +401,7 @@ p {
 .customers-icon {
   fill: currentColor;
 }
-.coustomers-link:focus {
+.link .coustomers-link:focus {
   border-color: var(--ocean);
   color: var(--ocean);
 }
