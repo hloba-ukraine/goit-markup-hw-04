@@ -407,7 +407,7 @@ p {
   color: var(--ocean);
 }
 
-.coustomers-link:focus {
+.customers-link:focus {
   border-color: var(--ocean);
   color: var(--ocean);
 }
