@@ -386,7 +386,7 @@ p {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
-.coustomers-link {
+.customers-link {
   width: 100%;
   height: 100%;
   border: 1px solid var(--lightslate);
@@ -402,14 +402,11 @@ p {
   fill: currentColor;
 }
 
-.coustomers-link:hover {
+.customers-link:hover {
   border-color: var(--ocean);
   color: var(--ocean);
 }
-.coustomers-link:active {
-  border-color: var(--ocean);
-  color: var(--ocean);
-}
+
 .coustomers-link:focus {
   border-color: var(--ocean);
   color: #404bbf;
