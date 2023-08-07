@@ -553,7 +553,7 @@ p {
 .item-portfolio:active .overlay {
   transform: translateY(0%);
 }
-.item-portfolio:focus .link .overlay {
+.item-portfolio:focus .link .p {
   transform: translateY(0%);
 }
 .item-portfolio:hover .overlay {
