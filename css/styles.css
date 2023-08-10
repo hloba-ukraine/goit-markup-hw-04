@@ -306,10 +306,10 @@ p {
   justify-content: center;
   height: 112px;
   margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: var(--cloud);
 }
 .features-item-icon {
-  background: var(--cloud);
-  border-radius: 4px;
   width: 264px;
 }
 .features-item {
@@ -431,6 +431,7 @@ p {
 .social-footer-text {
   color: var(--white);
   font-weight: 500;
+  margin-bottom: 16px;
 }
 .footer-content {
   display: flex;
@@ -459,7 +460,6 @@ p {
 .social-footer {
   display: flex;
   gap: 16px;
-  padding-top: 16px;
 }
 .section-footer-icon {
   fill: var(--cloud);
